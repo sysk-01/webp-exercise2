@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang = "ja">
+    <head>
+        <meta charset = "UTF-8">
+        <title>私の好きなHTML要素|Webp_exercise2</title>
+        <link href = "styles/style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <h1 align = "center">私の好きなHTML要素</h1>
+
+        <p>今回は私が好きなHTML要素を3つほど紹介していきたいと思います。</p>
+
+        <ul>
+            <li>紹介するHTML要素</li>
+            <ol>
+                <li><a class = "list" href = "#a">a要素</a></li>
+                <li><a class = "list" href = "#footer">footer要素</a></li>
+                <li><a class = "list" href = "#div">div要素</a></li>
+            </ol>
+            <li><a class = "list" href = "#quotation">参考文献</a></li>
+        </ul>
+
+        <h2 id = "a">a要素</h2>
+        <p>a要素はhref属性を用いてリンクを埋め込み、別のWebページやファイル、同一ページの指定の場所等のハイパーリンクを作成します。
+        a要素の内容はリンクであることが多いです。</p>
+        <p>a要素の好きなところは、p要素とは異なり、文章だけでなくリンクの埋め込みが可能であるところです。</p>
+        <div>
+            <ul>
+                <li>使用例</li>
+            </ul>
+            <pre>
+                <code>
+                &lt;a href = &quot;https://html.spec.whatwg.org/multipage/#toc-semantics&quot;&gt;4 The elements of HTML&lt;/a&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <ul>
+                <li>結果</li>
+            </ul>
+            <a class = "result" href = "https://html.spec.whatwg.org/multipage/#toc-semantics">4 The elements of HTML</a>
+        </div>
+
+        <h2 id = "footer">footer要素</h2>
+        <p>footer要素は、ページ下部に情報を埋め込み表示させる要素です。footer要素に埋め込む情報として、そのページに関する著作情報や関連記事へのリンクなどが
+        あります。</p>
+        <p>私が、footer要素のことが好きな理由は、べージの下部に概要などの情報を固定することが出来る事です。</p>
+        <div>
+            <ul>
+                <li>使用例</li>
+            </ul>
+            <pre>
+                <code>
+                &lt;footer&gt;2021-11-07&lt;/br&gt;Web Programming&lt;/footer&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <ul>
+                <li>結果</li>
+            </ul>
+            <footer class = "result1">2021-11-07</br>Web Programming</footer>
+        </div>
+
+        <h2 id = "div">div要素</h2>
+        <p>div要素は、単体ではあまり意味を持たない要素です。div要素はブロックとして複数の要素を囲い、まとめて処理を設定し、行うことが出来ます。
+        div要素を用いると、CSSでのスタイリングを、classを定義した時と似たようにまとめて反映させることが出来ます。</p>
+        <p>私がdiv要素を好きな理由は、div要素が特定の意味を持たないので、class属性を用いてある程度自由に要素の役割を決められるからです。</p>
+        <div>
+            <ul>
+                <li>使用例</li>
+            </ul>
+            <pre>
+                <code>
+                &lt;div class = &quot;result&quot;&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;example1&lt;/li&gt;
+                        &lt;li&gt;example2&lt;/li&gt;
+                        &lt;li&gt;example3&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <ul>
+                <li>結果</li>
+            </ul>
+            <div class = "result">
+                <ul>
+                    <li>example1</li>
+                    <li>example2</li>
+                    <li>example3</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 id = "quotation">参考文献</h2>
+        <ul>
+            <li>a要素</li>
+            <ol>
+                <li><a href = "https://html.spec.whatwg.org/multipage/#toc-semantics" cite = "https://html.spec.whatwg.org/multipage/#toc-semantics">4 The elements of HTML</a><p>(2021/11/07 https://html.spec.whatwg.org/multipage/#toc-semantics)</p></li>
+                <li><a href = "https://developer.mozilla.org/ja/docs/Web/HTML/Element/a" cite = "https://developer.mozilla.org/ja/docs/Web/HTML/Element/a">MDN Web Docs</a><p>(2021/11/07 https://developer.mozilla.org/ja/docs/Web/HTML/Element/a)</p></li>
+            </ol>
+            <li>footer要素</li>
+            <ul>
+                <li><a href = "https://dekiru.net/article/12876/" cite = "https://dekiru.net/article/12876/">footerタグの意味と使い方</a><p>(2021/11/07 https://dekiru.net/article/12876/)</p></li>
+            </ul>
+            <li>要素</li>
+            <ol>
+                <li><a href = "https://www.sejuku.net/blog/82341#div" cite = "https://www.sejuku.net/blog/82341#div">HTMLのdivタグとは？使い道が分からない人向けに解説！|侍エンジニアブログ</a><p>(2021/11/07 https://www.sejuku.net/blog/82341#div)</p></li>
+            </ol>
+        </ul>
+
+        <div>
+            <footer>5420038 坂井俊亮</br>日本大学文理学部情報科学科 Webプログラミング演習課題2</footer>
+        </div>
+    </body>
+</html>
